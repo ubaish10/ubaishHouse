@@ -1,0 +1,76 @@
+header{
+
+    width: 100%;
+    background-color: #333;
+    height: 120px;
+}
+
+#logo{
+    width:100px;
+    height: 100px;
+    float:left;
+    padding:5px 0px 0px 5px;
+}
+
+.menu{
+    float:right;
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 20px;
+    position: relative; 
+}
+
+.menu ol{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ol li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color: antiquewhite;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ol{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+footer ol li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+h1{
+    font-size: larger;
+}
